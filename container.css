@@ -1,0 +1,12 @@
+.container 
+    {
+        box-shadow: 20px 20px darkgreen;
+        width: 95%;
+        height: 475px;
+        border: 3px solid;
+        padding: 10px;
+        margin: 50px;
+        text-align:left;
+        font-size: large;
+        background-color: green;
+    }
