@@ -1,0 +1,113 @@
+body    
+    {
+        text-align:center;
+    }
+   
+h1
+    {
+        background-color: green;
+    }
+
+    /* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+ 
+  body {
+    background-image: url("./images/tech_bg_gif.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  
+
+  p {
+    background-color: green;
+    font-size: xx-large;
+  }
+
+  
+
+  h2 {
+    text-align: left;
+    background-color: green;
+  }
+
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(to right, #666363 0, white 10%, #666363 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 3s linear infinite;
+    background-color: green;
+    border: 1px;
+  }
+  
+  @keyframes  animate {
+    0% {
+      background-position: 0;
+    }
+    50% {
+      background-position: 470px;
+    }
+    100% {
+      background-position: 1300px;
+    }
+  }
+
+  .container 
+    {
+        box-shadow: 20px 20px darkgreen;
+        width: 95%;
+        height: 40%px;
+        border: 3px solid;
+        padding: 10px;
+        margin: 50px;
+        text-align:center;
+        font-size: large;
+        background-color: green;
+    }
